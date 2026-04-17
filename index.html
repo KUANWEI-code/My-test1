@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: white;
+      color: #333;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #ddd;
+    }
+
+    .box {
+      margin-top: 40px;
+      padding: 20px;
+      background: rgba(255,255,255,0.2);
+      display: inline-block;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Hello, I'm Kevin 👋</h1>
+    <p>This is my website deployed using GitHub Pages</p>
+    <button class="btn" onclick="showMessage()">Click Me</button>
+  </header>
+
+  <div class="box">
+    <h2>What I Learned</h2>
+    <p>I learned how to deploy a static website for free!</p>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("This website is live on GitHub Pages!");
+    }
+  </script>
+
+</body>
+</html>
